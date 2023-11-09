@@ -5891,7 +5891,7 @@ function(e, t, n) {
             this.startedLoading = !0;
             var e = this,
             t = this.thumb;
-            o.loader.load("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + this.id + "/" + "desktop_home.png", {
+            o.loader.load("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + this.id + "/" + "desktop_home_thumb.png", {
                 onLoad: function(n) {
                     e.image = n,
                     e.imageContainerInner.appendChild(n),
