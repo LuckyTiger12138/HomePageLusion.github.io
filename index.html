@@ -10,9 +10,7 @@
         var ua = (navigator.userAgent || navigator.vendor || window.opera).toLowerCase();
         document.documentElement.className += /(iPad|iPhone|Android)/i.test(ua) ? ' is-mobile' : ' is-desktop';
         document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-            window.location.href = "https://blog.serms.top";
-        }
+    
     </script>
     <script defer src="./js/TweenLite.js"></script>
     <script defer src="./js/three.r112.js"></script>
