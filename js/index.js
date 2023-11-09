@@ -1478,7 +1478,7 @@ function(e, t, n) {
     },
     t.preload = function(e) {
         if (!d || !m) return;
-        p[e = e || "default"] || (p[e] = !0, o.loader.add(i.cdnPath + "audios/" + e + ".mp3", {
+        p[e = e || "default"] || (p[e] = !0, o.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/audios/" + e + ".mp3", {
             type: "xhr",
             responseType: "arraybuffer",
             _onLoad: function() {
