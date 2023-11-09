@@ -1478,7 +1478,7 @@ function(e, t, n) {
     },
     t.preload = function(e) {
         if (!d || !m) return;
-        p[e = e || "default"] || (p[e] = !0, o.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/audios/" + e + ".mp3", {
+        p[e = e || "default"] || (p[e] = !0, o.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/audios/" + e + ".mp3", {
             type: "xhr",
             responseType: "arraybuffer",
             _onLoad: function() {
@@ -3633,14 +3633,14 @@ function(e, t, n) {
     u = n(164);
     t.preInit = function(e) {
         d = e,
-        o.loader.add( "https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/female.glb", {
+        o.loader.add( "https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/female.glb", {
             type: "any",
             weight: 1,
             hasLoading: !0,
             loadFunc: o.GLTFLoadFunc,
             onLoad: b
         }),
-        o.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/buffers.buf", {
+        o.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/buffers.buf", {
             type: "xhr",
             responseType: "arraybuffer",
             weight: 1,
@@ -5544,7 +5544,7 @@ function(e, t, n) {
     s = n(0);
     t.preInit = function(e) {
         u = e,
-        (l = new s.Texture(i.loader.add( "https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/sprite.png").content)).magFilter = l.minFilter = s.LinearFilter,
+        (l = new s.Texture(i.loader.add( "https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/sprite.png").content)).magFilter = l.minFilter = s.LinearFilter,
         l.needsUpdate = !0
     },
     t.init = function() {
@@ -5847,7 +5847,7 @@ function(e, t, n) {
     var v = h.prototype;
     v.preInit = function() {
         var e = this;
-        o.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/" + this.id + "/" + (i.isMobile ? "mobile_thumb.png": "desktop_home_thumb.png"), {
+        o.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + this.id + "/" + (i.isMobile ? "mobile_thumb.png": "desktop_home_thumb.png"), {
             onLoad: function(t) {
                 a.add(t, i.isMobile ? 256 : 544, i.isMobile ? 256 : 306,
                 function(t) {
@@ -5891,7 +5891,7 @@ function(e, t, n) {
             this.startedLoading = !0;
             var e = this,
             t = this.thumb;
-            o.loader.load("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/" + this.id + "/" + "desktop_home.png", {
+            o.loader.load("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + this.id + "/" + "desktop_home.png", {
                 onLoad: function(n) {
                     e.image = n,
                     e.imageContainerInner.appendChild(n),
@@ -10909,7 +10909,7 @@ function(e, t, n) {
     u = n(1);
     t.preInit = function(e) {
         c = e,
-        (f = new i.Texture(u.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/floor.jpg").content)).wrapS = f.wrapT = i.RepeatWrapping,
+        (f = new i.Texture(u.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/floor.jpg").content)).wrapS = f.wrapT = i.RepeatWrapping,
         f.magFilter = f.minFilter = i.LinearFilter,
         f.needsUpdate = !0,
         f.repeat.set(16, 16)
@@ -11475,7 +11475,7 @@ function(e, t, n) {
     t.preInit = function(e) {
         w = e,
         h = t.container = new i.Object3D,
-        (_ = new i.Texture(l.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/floor.png").content)).wrapS = _.wrapT = i.MirroredRepeatWrapping,
+        (_ = new i.Texture(l.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/floor.png").content)).wrapS = _.wrapT = i.MirroredRepeatWrapping,
         _.magFilter = _.minFilter = i.LinearFilter,
         _.needsUpdate = !0
     },
@@ -11705,7 +11705,7 @@ function(e, t, n) {
         w = n(205).replace(/#define\sGLSLIFY\s./, ""),
         y = n(206).replace(/#define\sGLSLIFY\s./, ""),
         b = n(207).replace(/#define\sGLSLIFY\s./, ""),
-        o.loader.add("https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/animation.glb", {
+        o.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/animation.glb", {
             type: "any",
             weight: 1,
             hasLoading: !0,
@@ -11723,7 +11723,7 @@ function(e, t, n) {
                 })
             }
         });
-        var a = "https://github.com/LuckyTiger12138/HomePageLusion.github.io/blob/main/assets/images/" + (i.isMobile ? "low/": "high/");
+        var a = "https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + (i.isMobile ? "low/": "high/");
         d = o.loader.add(a + "cloth_pos.png").content,
         f = o.loader.add(a + "cloth_norm.png").content,
         o.loader.add(a + "cloth.json", {
