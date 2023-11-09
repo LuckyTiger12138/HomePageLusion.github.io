@@ -5847,7 +5847,7 @@ function(e, t, n) {
     var v = h.prototype;
     v.preInit = function() {
         var e = this;
-        o.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + this.id + "/" + (i.isMobile ? "mobile_thumb.png": "desktop_home_thumb.png"), {
+        o.loader.add("https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + this.id + "/" + (i.isMobile ? "desktop_home_thumb.png": "desktop_home_thumb.png"), {
             onLoad: function(t) {
                 a.add(t, i.isMobile ? 256 : 544, i.isMobile ? 256 : 306,
                 function(t) {
@@ -11724,7 +11724,7 @@ function(e, t, n) {
                 })
             }
         });
-        var a = "https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + (i.isMobile ? "low/": "high/");
+        var a = "https://cdn.jsdelivr.net/gh/LuckyTiger12138/HomePageLusion.github.io/assets/images/" + (i.isMobile ? "high/": "high/");
         d = o.loader.add(a + "cloth_pos.png").content,
         f = o.loader.add(a + "cloth_norm.png").content,
         o.loader.add(a + "cloth.json", {
