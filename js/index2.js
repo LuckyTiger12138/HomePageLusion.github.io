@@ -5894,40 +5894,93 @@ function(e, t, n) {
                 var url ="https://luckytiger12138.github.io/HomePageLusion.github.io/assets/images/"
              if(this.id == 'img-1')
              {
-                 url+="myblog.png";
+                 url+="myblog.png";   o.loader.load(url , {
+                 onLoad: function(n) {
+                     e.image = n,
+                         e.imageContainerInner.appendChild(n),
+                         e.inScreen ? (n.style.transition = "opacity 1s", setTimeout(function() {
+                                 n.style.opacity = i.isMobile ? 0.5 : 1
+                             },
+                             50), setTimeout(function() {
+                                 // t.parentNode.removeChild(t),
+                                 // e.thumb = null
+                             },
+                             1e3)) : (n.style.opacity = i.isMobile ? 0.5 : 1, t.parentNode.removeChild(t), e.thumb = null)
+                 }
+             })
              }
              if(this.id == 'img-2')
              {
-                 url+="code.webp";
+                 url+="code.webp";   o.loader.load(url , {
+                 onLoad: function(n) {
+                     e.image = n,
+                         e.imageContainerInner.appendChild(n),
+                         e.inScreen ? (n.style.transition = "opacity 1s", setTimeout(function() {
+                                 n.style.opacity = i.isMobile ? 0.5 : 1
+                             },
+                             50), setTimeout(function() {
+                                 // t.parentNode.removeChild(t),
+                                 // e.thumb = null
+                             },
+                             1e3)) : (n.style.opacity = i.isMobile ? 0.5 : 1, t.parentNode.removeChild(t), e.thumb = null)
+                 }
+             })
              }
              if(this.id == 'img-3')
              {
-                 url+="gh.png";
+                 url+="gh.png";   o.loader.load(url , {
+                 onLoad: function(n) {
+                     e.image = n,
+                         e.imageContainerInner.appendChild(n),
+                         e.inScreen ? (n.style.transition = "opacity 1s", setTimeout(function() {
+                                 n.style.opacity = i.isMobile ? 0.5 : 1
+                             },
+                             50), setTimeout(function() {
+                                 // t.parentNode.removeChild(t),
+                                 // e.thumb = null
+                             },
+                             1e3)) : (n.style.opacity = i.isMobile ? 0.5 : 1, t.parentNode.removeChild(t), e.thumb = null)
+                 }
+             })
              }
              if(this.id == 'img-4')
              {
-                 url+="myplog.png";
+            
+                 url+="myplog.png";   o.loader.load(url , {
+                 onLoad: function(n) {
+                     e.image = n,
+                         e.imageContainerInner.appendChild(n),
+                         e.inScreen ? (n.style.transition = "opacity 1s", setTimeout(function() {
+                                 n.style.opacity = i.isMobile ? 0.5 : 1
+                             },
+                             50), setTimeout(function() {
+                                 // t.parentNode.removeChild(t),
+                                 // e.thumb = null
+                             },
+                             1e3)) : (n.style.opacity = i.isMobile ? 0.5 : 1, t.parentNode.removeChild(t), e.thumb = null)
+                 }
+             })
              }
              if(this.id == 'img-5')
              {
-                 url+=this.id  + "/"  + "desktop_home_thumb.png";
+                 url+=this.id  + "/"  + "desktop_home_thumb.png";   o.loader.load(url , {
+                 onLoad: function(n) {
+                     e.image = n,
+                         e.imageContainerInner.appendChild(n),
+                         e.inScreen ? (n.style.transition = "opacity 1s", setTimeout(function() {
+                                 n.style.opacity = i.isMobile ? 0.5 : 1
+                             },
+                             50), setTimeout(function() {
+                                 // t.parentNode.removeChild(t),
+                                 // e.thumb = null
+                             },
+                             1e3)) : (n.style.opacity = i.isMobile ? 0.5 : 1, t.parentNode.removeChild(t), e.thumb = null)
+                 }
+             })
              }
 
 
-            o.loader.load(url , {
-                onLoad: function(n) {
-                    e.image = n,
-                    e.imageContainerInner.appendChild(n),
-                    e.inScreen ? (n.style.transition = "opacity 1s", setTimeout(function() {
-                        n.style.opacity = i.isMobile ? 0.5 : 1
-                    },
-                    50), setTimeout(function() {
-                        // t.parentNode.removeChild(t),
-                        // e.thumb = null
-                    },
-                    1e3)) : (n.style.opacity = i.isMobile ? 0.5 : 1, t.parentNode.removeChild(t), e.thumb = null)
-                }
-            })
+
         }
     },
     v.reset = function() {
