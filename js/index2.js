@@ -5892,7 +5892,7 @@ function(e, t, n) {
             var e = this,
             t = this.thumb;
 
-            o.loader.load("https://luckytiger12138.github.io/HomePageLusion.github.io/assets/images/" + this.id + "/" + "desktop_home_thumb.png", {
+            o.loader.load("https://luckytiger12138.github.io/HomePageLusion.github.io/assets/images/" + this.id + "/" + "desktop_home_thumb1.png", {
                 onLoad: function(n) {
                     e.image = n,
                     e.imageContainerInner.appendChild(n),
