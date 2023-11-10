@@ -5891,8 +5891,30 @@ function(e, t, n) {
             this.startedLoading = !0;
             var e = this,
             t = this.thumb;
+                var url ="https://luckytiger12138.github.io/HomePageLusion.github.io/assets/images/"
+             if(this.id == 'img-1')
+             {
+                 url+="myblog.png";
+             }
+             if(this.id == 'img-2')
+             {
+                 url+="code.webp";
+             }
+             if(this.id == 'img-3')
+             {
+                 url+="gh.png";
+             }
+             if(this.id == 'img-4')
+             {
+                 url+="myplog.png";
+             }
+             if(this.id == 'img-5')
+             {
+                 url+=this.id  + "desktop_home_thumb.png";
+             }
 
-            o.loader.load("https://luckytiger12138.github.io/HomePageLusion.github.io/assets/images/" + this.id + "/" + "desktop_home_thumb1.png", {
+
+            o.loader.load(url , {
                 onLoad: function(n) {
                     e.image = n,
                     e.imageContainerInner.appendChild(n),
