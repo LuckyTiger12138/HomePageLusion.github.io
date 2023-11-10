@@ -5910,7 +5910,7 @@ function(e, t, n) {
              }
              if(this.id == 'img-5')
              {
-                 url+=this.id  + "desktop_home_thumb.png";
+                 url+=this.id  + "/"  + "desktop_home_thumb.png";
              }
 
 
