@@ -2,44 +2,44 @@
   font-family: "GT-Sectra-Fine-Bold";
   font-weight: 700;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GT-Sectra-Fine";
   font-weight: 400;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "nb_akademie_medium";
   font-weight: 700;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "nb_akademie_light";
   font-weight: 400;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.ttf") format("truetype");
 }
 
 html,
@@ -708,7 +708,7 @@ ul.nav {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: url(https://home.luckytiger12138.top/assets/images/dark.png);
+  background-image: url(http://home.luckytiger12138.top/assets/images/dark.png);
   background-size: 100% 100%;
   z-index: -1;
   opacity: 0.2;
@@ -2211,44 +2211,44 @@ html.is-cn .about-sec-desc {
   font-family: "GT-Sectra-Fine-Bold";
   font-weight: 700;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff2");
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff2");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GT-Sectra-Fine";
   font-weight: 400;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "nb_akademie_medium";
   font-weight: 700;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_medium-webfont.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "nb_akademie_light";
   font-weight: 400;
   font-style: normal;
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot");
-  src: url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot?#iefix") format("eot"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff2") format("woff2"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff") format("woff"),
-    url("https://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.ttf") format("truetype");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot");
+  src: url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.eot?#iefix") format("eot"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff2") format("woff2"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.woff") format("woff"),
+    url("http://home.luckytiger12138.top/assets/fonts/nb_akademie_light-webfont.ttf") format("truetype");
 }
 
 html,
@@ -2917,7 +2917,7 @@ ul.nav {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: url(https://home.luckytiger12138.top/assets/images/dark.png);
+  background-image: url(http://home.luckytiger12138.top/assets/images/dark.png);
   background-size: 100% 100%;
   z-index: -1;
   opacity: 0.2;

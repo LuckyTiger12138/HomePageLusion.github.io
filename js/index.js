@@ -1478,7 +1478,7 @@
         },
             t.preload = function(e) {
                 if (!d || !m) return;
-                p[e = e || "default"] || (p[e] = !0, o.loader.add("https://home.luckytiger12138.top/assets/audios/" + e + ".mp3", {
+                p[e = e || "default"] || (p[e] = !0, o.loader.add("http://home.luckytiger12138.top/assets/audios/" + e + ".mp3", {
                     type: "xhr",
                     responseType: "arraybuffer",
                     _onLoad: function() {
@@ -3633,14 +3633,14 @@
             u = n(164);
         t.preInit = function(e) {
             d = e,
-                o.loader.add( "https://home.luckytiger12138.top/assets/images/female.glb", {
+                o.loader.add( "http://home.luckytiger12138.top/assets/images/female.glb", {
                     type: "any",
                     weight: 1,
                     hasLoading: !0,
                     loadFunc: o.GLTFLoadFunc,
                     onLoad: b
                 }),
-                o.loader.add("https://home.luckytiger12138.top/assets/images/buffers.buf", {
+                o.loader.add("http://home.luckytiger12138.top/assets/images/buffers.buf", {
                     type: "xhr",
                     responseType: "arraybuffer",
                     weight: 1,
@@ -5544,7 +5544,7 @@
             s = n(0);
         t.preInit = function(e) {
             u = e,
-                (l = new s.Texture(i.loader.add( "https://home.luckytiger12138.top/assets/images/sprite.png").content)).magFilter = l.minFilter = s.LinearFilter,
+                (l = new s.Texture(i.loader.add( "http://home.luckytiger12138.top/assets/images/sprite.png").content)).magFilter = l.minFilter = s.LinearFilter,
                 l.needsUpdate = !0
         },
             t.init = function() {
@@ -5847,7 +5847,7 @@
         var v = h.prototype;
         v.preInit = function() {
             var e = this;
-            o.loader.add("https://home.luckytiger12138.top/assets/images/" + this.id + "/" + (i.isMobile ? "desktop_home_thumb.png": "desktop_home_thumb.png"), {
+            o.loader.add("http://home.luckytiger12138.top/assets/images/" + this.id + "/" + (i.isMobile ? "desktop_home_thumb.png": "desktop_home_thumb.png"), {
                 onLoad: function(t) {
                     a.add(t, i.isMobile ? 256 : 544, i.isMobile ? 256 : 306,
                         function(t) {
@@ -5892,7 +5892,7 @@
                     var e = this,
                         t = this.thumb;
 
-                    o.loader.load("https://home.luckytiger12138.top/assets/images/" + this.id + "/" + "desktop_home_thumb1.png", {
+                    o.loader.load("http://home.luckytiger12138.top/assets/images/" + this.id + "/" + "desktop_home_thumb1.png", {
                         onLoad: function(n) {
                             e.image = n,
                                 e.imageContainerInner.appendChild(n),
@@ -10910,7 +10910,7 @@
             u = n(1);
         t.preInit = function(e) {
             c = e,
-                (f = new i.Texture(u.loader.add("https://home.luckytiger12138.top/assets/images/floor.jpg").content)).wrapS = f.wrapT = i.RepeatWrapping,
+                (f = new i.Texture(u.loader.add("http://home.luckytiger12138.top/assets/images/floor.jpg").content)).wrapS = f.wrapT = i.RepeatWrapping,
                 f.magFilter = f.minFilter = i.LinearFilter,
                 f.needsUpdate = !0,
                 f.repeat.set(16, 16)
@@ -11476,7 +11476,7 @@
         t.preInit = function(e) {
             w = e,
                 h = t.container = new i.Object3D,
-                (_ = new i.Texture(l.loader.add("https://home.luckytiger12138.top/assets/images/floor.png").content)).wrapS = _.wrapT = i.MirroredRepeatWrapping,
+                (_ = new i.Texture(l.loader.add("http://home.luckytiger12138.top/assets/images/floor.png").content)).wrapS = _.wrapT = i.MirroredRepeatWrapping,
                 _.magFilter = _.minFilter = i.LinearFilter,
                 _.needsUpdate = !0
         },
@@ -11706,7 +11706,7 @@
                 w = n(205).replace(/#define\sGLSLIFY\s./, ""),
                 y = n(206).replace(/#define\sGLSLIFY\s./, ""),
                 b = n(207).replace(/#define\sGLSLIFY\s./, ""),
-                o.loader.add("https://home.luckytiger12138.top/assets/images/animation.glb", {
+                o.loader.add("http://home.luckytiger12138.top/assets/images/animation.glb", {
                     type: "any",
                     weight: 1,
                     hasLoading: !0,
@@ -11724,7 +11724,7 @@
                             })
                     }
                 });
-            var a = "https://home.luckytiger12138.top/assets/images/" + (i.isMobile ? "high/": "high/");
+            var a = "http://home.luckytiger12138.top/assets/images/" + (i.isMobile ? "high/": "high/");
             d = o.loader.add(a + "cloth_pos.png").content,
                 f = o.loader.add(a + "cloth_norm.png").content,
                 o.loader.add(a + "cloth.json", {
