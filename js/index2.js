@@ -2050,7 +2050,7 @@ function(e, t, n) {
         c = document.getElementById("menu-canvas");
         // for (var e = u.querySelectorAll(".menu-menu-item"), t = 0, n = e.length; t < n; t++) m[t] = e[t].style;
         // m.push(document.getElementById("menu-lang-selector").style),
-        l = c.getContext("2d"),
+        // l = c.getContext("2d"),
         a.onHideStarted.add(y),
         f = !0
     }
